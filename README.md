@@ -1,8 +1,8 @@
  
-# لغة البرمجة Apm#
+# Apm#
 
-[![APM#](https://img.shields.io/badge/APM%23-blue.svg)](https://example.com)
-![Apm# Logo](https://example.com/apm_logo.gif)
+[![APM#](https://img.shields.io/badge/APM%23-orange.svg)]( https://github.com/MAJD12358/.NoN)
+![Apm# Logo](https://example.com/apm_logo.png)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://example.com/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://example.com/license)
@@ -75,4 +75,4 @@ npm install apm-lang
 <img src="https://example.com/apm_sample.png" alt="Apm# Sample" width="600"/>
 ```
 
-هذا الملف يحتوي على أمثلة قوية لاستخدامات لغة البرمجة Apm# بالإضافة إلى الأمثلة البصرية لكل مثال، مما يجعل التوثيق أكثر فعالية وجاذبية للمستخدمين.
+هذا النمط يستخدم ألوان متناسقة وتخطيطًا نظيفًا مع شارات لوضوح الإصدار والرخصة، مما يعطي ملف README.md مظهرًا احترافيًا ومنظمًا.
