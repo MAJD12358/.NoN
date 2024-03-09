@@ -1,8 +1,8 @@
  
-# لغة البرمجة Apm#
+# Apm#
 
 [![APM#](https://img.shields.io/badge/APM%23-orange.svg)](https://example.com)
-![Apm# Logo](https://example.com/apm_logo.png)
+![Apm# Logo](logo.png)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://example.com/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://example.com/license)
@@ -77,6 +77,10 @@ npm install apm-lang
 
 هذا المشروع مرخص برخصة [MIT](https://example.com/license). يرجى الاطلاع على ملف الرخصة لمزيد من المعلومات.
 
-<img src="https://example.com/apm_sample.png" alt="Apm# Sample" width="600"/>
+<img src="logo.png" alt="Apm# Sample" width="600"/>
+
 ```
- 
+
+ثم يمكنك إنشاء ملف .gitignore مخصص للغة Apm# بما يلي:
+
+```
