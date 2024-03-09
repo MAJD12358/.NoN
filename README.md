@@ -1,6 +1,7 @@
-  
+ 
 # لغة البرمجة Apm#
 
+[![APM#](https://img.shields.io/badge/APM%23-blue.svg)](https://example.com)
 ![Apm# Logo](https://example.com/apm_logo.gif)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://example.com/releases)
@@ -43,5 +44,4 @@ npm install apm-lang
 
 <img src="https://example.com/apm_sample.png" alt="Apm# Sample" width="600"/>
 ```
-
-هذا الملف يضمن استخدام جداول لعرض الأمثلة، والصور المتحركة لعرض الأمثلة الرئيسية، والتنسيق المتقدم لتحسين قراءة المحتوى.
+ 
