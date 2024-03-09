@@ -1,17 +1,24 @@
- # دليل استخدام لغة Apm#
+ # ملف وثائق المستخدمين (User Documentation)
+user_documentation = """
+# Apm# Language User Documentation
 
-## المقدمة:
-هذا الدليل يوضح كيفية استخدام لغة البرمجة Apm#.
+## Components
 
-## الجزئيات الأساسية:
-### المكونات:
-يتيح لك لغة Apm# تحديد مكونات مثل الأزرار، النصوص، الصور، ومكونات أخرى.
+### Button
+A button component used for user interaction.
 
-### التخطيطات:
-يمكنك تنظيم المكونات داخل تخطيطات، مثل صفوف وأعمدة.
+Attributes:
+- `type`: The type of button.
+- `text`: The text displayed on the button.
+- `background_color`: The background color of the button.
+- `text_color`: The color of the text on the button.
+- `width`: The width of the button.
+- `height`: The height of the button.
+- `state`: The state of the button (e.g., active, disabled).
+- `font_style`: The style of the text font.
+- `shape`: The shape of the button.
 
-## الأمثلة:
-### مثال 1: إنشاء زر
+Example:
 ```apm#
 .Component[
     "button" → type
