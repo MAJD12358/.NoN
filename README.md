@@ -1,13 +1,16 @@
  
-# Apm#
+# لغة البرمجة Apm#
 
-[![APM#](https://img.shields.io/badge/APM%23-orange.svg)]( https://github.com/MAJD12358/.NoN)
+[![APM#](https://img.shields.io/badge/APM%23-orange.svg)](https://example.com)
 ![Apm# Logo](https://example.com/apm_logo.png)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://example.com/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://example.com/license)
 
 **Apm#** هي لغة برمجة متقدمة وسهلة الاستخدام لتطوير واجهات المستخدم.
+
+<details>
+<summary>عرض خيارات الإخفاء والإظهار</summary>
 
 ## الميزات
 
@@ -45,6 +48,8 @@
 ```
 ![Event Example](https://example.com/event_example.gif)
 
+</details>
+
 ## الحزمة
 
 يمكنك تثبيت لغة البرمجة **Apm#** باستخدام npm:
@@ -74,5 +79,4 @@ npm install apm-lang
 
 <img src="https://example.com/apm_sample.png" alt="Apm# Sample" width="600"/>
 ```
-
-هذا النمط يستخدم ألوان متناسقة وتخطيطًا نظيفًا مع شارات لوضوح الإصدار والرخصة، مما يعطي ملف README.md مظهرًا احترافيًا ومنظمًا.
+ 
