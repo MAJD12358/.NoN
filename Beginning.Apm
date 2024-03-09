@@ -1,0 +1,115 @@
+Apm#[
+    .Component[
+        "button" \/ type
+        "Click me" \/ text
+        "#FFFFFF" \/ background_color
+        "#000000" \/ text_color
+        "100px" \/ width
+        "50px" \/ height
+        "active" \/ state
+        "bold" \/ font_style
+        "rounded" \/ shape
+        
+        type →
+        text →
+        background_color →
+        text_color →
+        width →
+        height →
+        state →
+        font_style →
+        shape →
+    ]
+
+    .Component[
+        "text" \/ type
+        "Hello, world!" \/ content
+        "20px" \/ font_size
+        "Arial" \/ font_family
+        "#FF0000" \/ text_color
+        "#000000" \/ background_color
+        "italic" \/ font_style
+        
+        type →
+        content →
+        font_size →
+        font_family →
+        text_color →
+        background_color →
+        font_style →
+    ]
+
+    .Component[
+        "image" \/ type
+        "https://example.com/image.jpg" \/ source
+        "100%" \/ width
+        "auto" \/ height
+        "cover" \/ object_fit
+        "circle" \/ mask_shape
+        
+        type →
+        source →
+        width →
+        height →
+        object_fit →
+        mask_shape →
+    ]
+
+    .Component[
+        "video" \/ type
+        "https://example.com/video.mp4" \/ source
+        "100%" \/ width
+        "auto" \/ height
+        "controls" \/ controls
+        "autoplay" \/ autoplay
+        
+        type →
+        source →
+        width →
+        height →
+        controls →
+        autoplay →
+    ]
+
+    .Component[
+        "topbar" \/ type
+        "My App" \/ title
+        ["Home", "About", "Contact"] \/ menu_items
+        "#333333" \/ background_color
+        "#FFFFFF" \/ text_color
+        "#FFFFFF" \/ text_size
+        "20px" \/ font_size
+        
+        type →
+        title →
+        menu_items →
+        background_color →
+        text_color →
+        text_size →
+        font_size →
+    ]
+
+    .Layout[
+        ["button", "text"] \/ row1
+        ["image", "video"] \/ row2
+        "topbar" \/ row3
+        "footer" \/ row4
+        
+        row1 →
+        row2 →
+        row3 →
+        row4 →
+    ]
+
+    .Event[
+        "click" \/ event_type
+        "showMenu" \/ action
+        "toggleVisibility" \/ action_type
+        "navigateTo" \/ destination
+        
+        event_type →
+        action →
+        action_type →
+        destination →
+    ]
+]
