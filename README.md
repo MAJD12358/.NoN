@@ -1,33 +1,21 @@
- # ملف وثائق المستخدمين (User Documentation)
-user_documentation = """
-# Apm# Language User Documentation
+# لغة البرمجة Apm#
 
-## Components
+![Apm# Logo](https://example.com/apm_logo.png)
 
-### Button
-A button component used for user interaction.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://example.com/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://example.com/license)
 
-Attributes:
-- `type`: The type of button.
-- `text`: The text displayed on the button.
-- `background_color`: The background color of the button.
-- `text_color`: The color of the text on the button.
-- `width`: The width of the button.
-- `height`: The height of the button.
-- `state`: The state of the button (e.g., active, disabled).
-- `font_style`: The style of the text font.
-- `shape`: The shape of the button.
+Apm# هي لغة برمجة متقدمة وسهلة الاستخدام لتطوير واجهات المستخدم.
 
-Example:
-```apm#
-.Component[
-    "button" → type
-    "Click me" → text
-    "#FFFFFF" → background_color
-    "#000000" → text_color
-    "100px" → width
-    "50px" → height
-    "active" → state
-    "bold" → font_style
-    "rounded" → shape
-]
+## الميزات
+
+- **متقدمة**: توفير مجموعة واسعة من الميزات المتقدمة لتصميم وتطوير واجهات المستخدم الحديثة.
+- **مطور**: دعم لمفاهيم التطوير المتقدمة مثل البرمجة الشرطية والدوال الفرعية والتعليمات المشروطة.
+- **سهلة الاستخدام**: واجهة برمجية بسيطة ومفهومة تسمح للمطورين بالبدء بسرعة في تطوير التطبيقات.
+
+## التثبيت
+
+يمكنك تثبيت لغة البرمجة Apm# عن طريق تنزيل حزمة التثبيت من مستودعنا.
+
+```bash
+npm install apm-lang
